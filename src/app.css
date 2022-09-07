@@ -1,0 +1,25 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media (min-device-width: 1200px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (max-device-width: 218px) and (max-device-height: 281px) { 
+    body {
+        overflow: scroll;
+    }
+} */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#navbar {
+        box-shadow: 0 2px 2px -2px black;
+        height: 70px;
+}
